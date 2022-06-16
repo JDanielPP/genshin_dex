@@ -26,6 +26,7 @@ function App() {
         types: respJson.types,
     });
 } else {
+
     setGenshinState({types:[...genshinState.types],[item]:respJson});
 
    
